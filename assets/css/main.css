@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+body {
+    font-family: 'Gilroy', sans-serif;
+    src: url(../fonts/gilroy/Gilroy-Regular.ttf);
+    font-family: 'Gilroy-semiBold' sans-serif;
+    src: url(../fonts/gilroy/Gilroy-SemiBold.ttf);
+    font-family: 'Gilroy-bold' sans-serif;
+    src: url(../fonts/gilroy/Gilroy-Bold.ttf);
+    font-family: 'Gilroy-medium' sans-serif;
+    src: url(../fonts/gilroy/Gilroy-Medium.ttf);
+    position: relative;
+}
+
+.navbar {
+    display: block;
+    margin-top: 50px;
+}
+
+.yellow-bckgr {
+    background-color: #F9F1E7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    max-width: 67vw;
+    width: 100%;
+    height: 500px;
+}
+
+.navbar_container {
+    max-width: 86.25vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo {
+    display: inline-block;
+    z-index: 10;
+    margin-right: 44px;
+}
+
+.navbar_container ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 16px;
+}
+
+.navbar_container li {
+    margin-right: 44px;
+    font-weight: 500;
+}
+
+.navbar_container li a {
+    text-decoration: none;
+    color: #3A3A3A;
+    position: relative;
+}
+
+.products img,
+.rooms img {
+    position: absolute;
+    top: 3px;
+}
+
+.products img {
+    left: 74px;
+}
+
+.rooms img {
+    left: 60px;
+}
+
+#form {
+    position: relative;
+}
+
+#form input {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    width: 475px;
+    height: 45px;
+    background: #fff;
+    position: relative;
+    padding-left: 50px;
+}
+
+
+/* #form input:before {
+    display: inline-block;
+    content: '';
+    width: 150px;
+    height: 150px;
+    background: url("../img/Search.png") no-repeat center center;
+    position: absolute;
+    top: 50%;
+    left: 110px;
+} */
+
+#form img {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    z-index: 100;
+    width: 20px;
+    height: auto;
+}
+
+#form button {
+    display: none;
+}
